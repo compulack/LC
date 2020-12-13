@@ -18,7 +18,8 @@ chmod 777 ./test
 8.
 touch test.py
 gedit ./test.py
-  >>> #!/bin/python
-  >>> print("Hello World")
+  >#!/bin/python
+  >print("Hello World")
+  
 chmod 777 ./test.py
 ./test.py
